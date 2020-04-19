@@ -8,4 +8,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Install [Npm](https://nodejs.org/en/)
 
 # create-react-native
-1. npm init react-app my-app 
+1. npm init ilhamridho04.github.io
