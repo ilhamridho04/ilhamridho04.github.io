@@ -33,7 +33,9 @@
     ]
   },
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ilhamridho04/ilhamridho04.github.io.git"
