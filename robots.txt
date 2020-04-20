@@ -1,5 +1,8 @@
-# https://www.robotstxt.org/robotstxt.html
-User-Agent: *
-Disallow:
-Allow: /public/*
+User-agent: Mediapartners-Google
+Disallow: 
 
+User-agent: *
+Disallow: /search
+Allow: /
+
+Sitemap: https://www.ilhamridho04.github.io/sitemap.xml
