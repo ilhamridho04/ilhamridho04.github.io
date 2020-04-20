@@ -15,5 +15,7 @@ Allow: /pagead/js/adsbygoogle.js
 Allow: /pagead/js/*/show_ads_impl.js
 Allow: /static/glade.js
 Allow: /static/glade/
+Allow: /pagead/html/*/*/*.html
+Allow: /pagead/js/*/*/show_ads_impl*.js
 
 Sitemap: https://www.ilhamridho04.github.io/sitemap.xml
