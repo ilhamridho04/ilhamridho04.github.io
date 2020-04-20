@@ -50,7 +50,7 @@
   </nav>
   <!--/ Nav End /-->
 <!--/ Intro Skew Star /-->
-<div class="intro intro-single route bg-image" style="background-image: url(img/overlay-bg.jpg)">
+<div class="intro intro-single route bg-image" style="background-image: url(../img/intro-bg.jpg)">
     <div class="overlay-mf"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
@@ -332,7 +332,7 @@
   </section>
   <!--/ Section Blog-Single End /-->
    <!--/ Section Contact-Footer Star /-->
-   <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+   <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(../img/intro-bg.jpg)">
     <div class="overlay-ilham"></div>
     <footer>
       <div class="container">
@@ -376,7 +376,40 @@
 
   <!-- Template Main Javascript File -->
   <script src="../js/main.js"></script>
-  <script src="../js/ilhamridho.js"></script>
+  <script type="text/javascript">
+    var date = new Date();
+    var tahun = date.getFullYear();
+    var bulan = date.getMonth();
+    var hari = date.getDay();
+    var tanggal = date.getDate();
+    switch(bulan) {
+     case 0: bulan = "Januari"; break;
+     case 1: bulan = "Februari"; break;
+     case 2: bulan = "Maret"; break;
+     case 3: bulan = "April"; break;
+     case 4: bulan = "Mei"; break;
+     case 5: bulan = "Juni"; break;
+     case 6: bulan = "Juli"; break;
+     case 7: bulan = "Agustus"; break;
+     case 8: bulan = "September"; break;
+     case 9: bulan = "Oktober"; break;
+     case 10: bulan = "November"; break;
+     case 11: bulan = "Desember"; break;
+    }
+    switch(hari) {
+     case 0: hari = "Minggu"; break;
+     case 1: hari = "Senin"; break;
+     case 2: hari = "Selasa"; break;
+     case 3: hari = "Rabu"; break;
+     case 4: hari = "Kamis"; break;
+     case 5: hari = "Jum'at"; break;
+     case 6: hari = "Sabtu"; break;
+    }
+    var infoTanggal = tanggal + "-" + bulan + "-" + tahun;
+    var hari = hari;
+    document.getElementById("title").innerHTML = window.location.hostname + "> Blog";
+    document.getElementById("footer").innerHTML = "&copy " + tahun + " <strong>Ilham Ridho Asysyifa'a</strong>";
   
+  </script>
 </body>
 </html>
