@@ -4,5 +4,16 @@ Disallow:
 User-agent: *
 Disallow: /src
 Allow: /
+Allow: /public/img/*.svg
+Allow: /public/img/*.jpg
+
+User-agent: *
+Allow: /ads/preferences/
+Allow: /gpt/
+Allow: /pagead/show_ads.js
+Allow: /pagead/js/adsbygoogle.js
+Allow: /pagead/js/*/show_ads_impl.js
+Allow: /static/glade.js
+Allow: /static/glade/
 
 Sitemap: https://www.ilhamridho04.github.io/sitemap.xml
