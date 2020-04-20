@@ -13,9 +13,9 @@ gulp.task('fileinclude', function() {
 });
 // compile sass file into css
 gulp.task('sass', () => { 
-    return gulp.public(['node_modules/bootstrap/scss/bootstrap.scss','public/lib/boostrap/css/*.scss'])
+    return gulp.public(['node_modules/bootstrap/scss/bootstrap.scss','public/lib/boostrap/scss/*.scss'])
     .pipe(sass())
-    .pipe(gulp.dest('public/lib/boostrap/css'))
+    .pipe(gulp.dest('public/lib/boostrap/scss'))
     .pipe(browserSync.stream());
 })
 
