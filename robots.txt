@@ -2,7 +2,7 @@ User-agent: Mediapartners-Google
 Disallow: 
 
 User-agent: *
-Disallow: /search
+Disallow: /src
 Allow: /
 
 Sitemap: https://www.ilhamridho04.github.io/sitemap.xml
