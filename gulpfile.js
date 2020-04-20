@@ -4,9 +4,9 @@ const sass = require('gulp-sass');
 
 // compile sass file into css
 gulp.task('sass', () => { 
-    return gulp.public(['node_modules/bootstrap/scss/bootstrap.scss','public/scss/*.scss'])
+    return gulp.public(['node_modules/bootstrap/scss/bootstrap.scss','public/lib/boostrap/css/*.scss'])
     .pipe(sass())
-    .pipe(gulp.dest('public/dist/css'))
+    .pipe(gulp.dest('public/lib/boostrap/css'))
     .pipe(browserSync.stream());
 })
 
@@ -19,11 +19,13 @@ gulp.task('js', () => {
 // create server and wathcing file 
 gulp.task('serve', gulp.series('sass', () => {
     browserSync.init({
-        server: './public'
+        server: './public',
+        blog: './blog'
     });
 
-    gulp.watch('public/scss/**/*.scss', gulp.series('sass')); 
+    gulp.watch('public/lib/**/*.scss', gulp.series('sass')); 
     gulp.watch('public/*.html').on('change', browserSync.reload);
+    gulp.watch('blog/*.html').on('change', browserSync.reload);
 }));
 
 gulp.task('default', gulp.series('serve')); 
