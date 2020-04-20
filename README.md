@@ -9,3 +9,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # create-react-native
 1. npm init ilhamridho04.github.io
+2. git add
+3. git clone
+4. npm run deploy
