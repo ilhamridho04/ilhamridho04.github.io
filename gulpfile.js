@@ -34,7 +34,7 @@ gulp.task('serve', gulp.series('sass', () => {
         server: './public',
         blog: './blog'
     });
-
+    gulp.watch('./*.html').on('change', browserSync.reload);
     gulp.watch('public/lib/**/*.scss', gulp.series('sass')); 
     gulp.watch('public/*.html').on('change', browserSync.reload);
     gulp.watch('blog/*.html').on('change', browserSync.reload);
