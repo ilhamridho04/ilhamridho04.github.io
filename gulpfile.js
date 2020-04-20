@@ -1,7 +1,16 @@
 const gulp = require('gulp');
+const fileinclude = require('gulp-file-include');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass'); 
-
+ 
+gulp.task('fileinclude', function() {
+  gulp.src(['index.html'])
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
+    .pipe(gulp.dest('./'));
+});
 // compile sass file into css
 gulp.task('sass', () => { 
     return gulp.public(['node_modules/bootstrap/scss/bootstrap.scss','public/lib/boostrap/css/*.scss'])
