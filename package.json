@@ -36,6 +36,7 @@
   "main": "index.js",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-file-include": "^2.1.1",
     "gulp-sass": "^4.0.2",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
