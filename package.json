@@ -2,8 +2,8 @@
   "name": "ilhamridho04.github.io",
   "version": "1.1.0",
   "description": "landing-page, ilhamridho04, kenziehotspot, bangmez, bangmez.web.id",
-  "homepage": "https://ilhamridho04.github.io/",
-  "blog": "https://ilhamridho04.github.io/blog/",
+  "homepage": "https://ilhamridho04.github.io/public/",
+  "blog": "https://ilhamridho04.github.io/public/blog/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
