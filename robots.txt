@@ -2,12 +2,12 @@ User-agent: Mediapartners-Google
 Disallow: 
 
 User-agent: *
-Disallow: /src
 Allow: /
 Allow: /public/img/*.svg
 Allow: /public/img/*.jpg
 
 User-agent: *
+Disallow /md/*.md$
 Allow: /ads/preferences/
 Allow: /gpt/
 Allow: /pagead/show_ads.js
