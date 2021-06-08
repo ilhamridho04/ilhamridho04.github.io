@@ -1,0 +1,19 @@
+{
+  "name": "ilhamridho04.github.io",
+  "version": "1.0.0",
+  "description": "Portofolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilhamridho04/ilhamridho04.github.io.git"
+  },
+  "author": "Ilham Ridho Asysyifa'a",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilhamridho04/ilhamridho04.github.io/issues"
+  },
+  "homepage": "https://github.com/ilhamridho04/ilhamridho04.github.io#readme"
+}
