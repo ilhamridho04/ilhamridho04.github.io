@@ -1,0 +1,73 @@
+<%- contentFor('HeaderCss') %>
+
+<%- contentFor('breadcrumb') %>
+
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-flex align-items-center justify-content-between">
+            <h4 class="mb-0">Tambah App</h4>
+
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">App</a></li>
+                    <li class="breadcrumb-item active">Tambah</li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+
+<%- contentFor('body') %>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+
+                <h4 class="card-title">Textual inputs</h4>
+                <p class="card-title-desc">Here are examples of <code>.form-control</code> applied to each
+                    textual HTML5 <code>&lt;input&gt;</code> <code>type</code>.</p>
+
+                <div class="mb-3 row">
+                    <label for="example-text-input" class="col-md-2 col-form-label">App ID</label>
+                    <div class="col-md-6">
+                        <input class="form-control" name="appId" type="text" id="app-id">
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" id="get-app-detail" class="btn btn-primary w-sm waves-effect waves-light">Detail</a>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="example-search-input" class="col-md-2 col-form-label">Nama App</label>
+                    <div class="col-md-10">
+                        <input class="form-control" name="title" type="text" id="app-name">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="example-email-input" class="col-md-2 col-form-label">Short Description</label>
+                    <div class="col-md-10">
+                        <textarea name="descriptionHTML" id="short-desc"></textarea>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="example-email-input" class="col-md-2 col-form-label">Full Description</label>
+                    <div class="col-md-10">
+                        <textarea name="descriptionHTML" id="full-desc"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end col -->
+</div>
+<!-- end row -->
+<%- contentFor('FooterJs') %>
+<!-- ckeditor -->
+<script src="public/assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+<!--tinymce js-->
+<script src="public/assets/libs/tinymce/tinymce.min.js"></script>
+<!-- init js -->
+<script src="public/assets/js/pages/form-editor.init.js"></script>
+<script src="public/assets/js/crud/get-app-detail.js"></script>
+<%- contentFor('BottomJs') %>
