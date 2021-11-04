@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/ilhamridho04.github.io/static/css/main.f0ab3586.chunk.css",
+    "main.js": "/ilhamridho04.github.io/static/js/main.bb0bd4ec.chunk.js",
+    "runtime-main.js": "/ilhamridho04.github.io/static/js/runtime-main.21a5146b.js",
+    "static/css/2.61c7aef1.chunk.css": "/ilhamridho04.github.io/static/css/2.61c7aef1.chunk.css",
+    "static/js/2.968bec25.chunk.js": "/ilhamridho04.github.io/static/js/2.968bec25.chunk.js",
+    "static/js/3.50a7e017.chunk.js": "/ilhamridho04.github.io/static/js/3.50a7e017.chunk.js",
+    "static/js/4.1b5dec4f.chunk.js": "/ilhamridho04.github.io/static/js/4.1b5dec4f.chunk.js",
+    "static/js/5.5ca9c398.chunk.js": "/ilhamridho04.github.io/static/js/5.5ca9c398.chunk.js",
+    "index.html": "/ilhamridho04.github.io/index.html",
+    "precache-manifest.d119ef2b560ebf78fc0e4a4a3cde2829.js": "/ilhamridho04.github.io/precache-manifest.d119ef2b560ebf78fc0e4a4a3cde2829.js",
+    "service-worker.js": "/ilhamridho04.github.io/service-worker.js",
+    "static/js/2.968bec25.chunk.js.LICENSE.txt": "/ilhamridho04.github.io/static/js/2.968bec25.chunk.js.LICENSE.txt",
+    "static/js/4.1b5dec4f.chunk.js.LICENSE.txt": "/ilhamridho04.github.io/static/js/4.1b5dec4f.chunk.js.LICENSE.txt",
+    "static/js/5.5ca9c398.chunk.js.LICENSE.txt": "/ilhamridho04.github.io/static/js/5.5ca9c398.chunk.js.LICENSE.txt",
+    "static/media/1.JPG": "/ilhamridho04.github.io/static/media/1.0c571bfb.JPG",
+    "static/media/2.JPG": "/ilhamridho04.github.io/static/media/2.fba17867.JPG",
+    "static/media/3.JPG": "/ilhamridho04.github.io/static/media/3.776a5714.JPG",
+    "static/media/4.jpg": "/ilhamridho04.github.io/static/media/4.af60bc02.jpg",
+    "static/media/UploadIcon.svg": "/ilhamridho04.github.io/static/media/UploadIcon.1cedb6e9.svg",
+    "static/media/address.svg": "/ilhamridho04.github.io/static/media/address.1b5120a5.svg",
+    "static/media/envelope.svg": "/ilhamridho04.github.io/static/media/envelope.4891f098.svg",
+    "static/media/logo.png": "/ilhamridho04.github.io/static/media/logo.7196c467.png",
+    "static/media/phone-call.svg": "/ilhamridho04.github.io/static/media/phone-call.f57fd852.svg",
+    "static/media/preview.png": "/ilhamridho04.github.io/static/media/preview.5f4c69ad.png",
+    "static/media/undraw_add_document_0hek.svg": "/ilhamridho04.github.io/static/media/undraw_add_document_0hek.9082c49f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21a5146b.js",
+    "static/css/2.61c7aef1.chunk.css",
+    "static/js/2.968bec25.chunk.js",
+    "static/css/main.f0ab3586.chunk.css",
+    "static/js/main.bb0bd4ec.chunk.js"
+  ]
+}
