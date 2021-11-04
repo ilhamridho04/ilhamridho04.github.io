@@ -1,0 +1,42 @@
+{
+  "files": {
+    "static/js/0.fbbad8e6.chunk.js": "/ilhamridho04.github.io/static/js/0.fbbad8e6.chunk.js",
+    "static/js/0.fbbad8e6.chunk.js.map": "/ilhamridho04.github.io/static/js/0.fbbad8e6.chunk.js.map",
+    "main.css": "/ilhamridho04.github.io/static/css/main.f8623e23.chunk.css",
+    "main.js": "/ilhamridho04.github.io/static/js/main.c0c43453.chunk.js",
+    "main.js.map": "/ilhamridho04.github.io/static/js/main.c0c43453.chunk.js.map",
+    "runtime-main.js": "/ilhamridho04.github.io/static/js/runtime-main.07e67030.js",
+    "runtime-main.js.map": "/ilhamridho04.github.io/static/js/runtime-main.07e67030.js.map",
+    "static/css/3.c4fa9b12.chunk.css": "/ilhamridho04.github.io/static/css/3.c4fa9b12.chunk.css",
+    "static/js/3.422df036.chunk.js": "/ilhamridho04.github.io/static/js/3.422df036.chunk.js",
+    "static/js/3.422df036.chunk.js.map": "/ilhamridho04.github.io/static/js/3.422df036.chunk.js.map",
+    "static/js/4.6b589178.chunk.js": "/ilhamridho04.github.io/static/js/4.6b589178.chunk.js",
+    "static/js/4.6b589178.chunk.js.map": "/ilhamridho04.github.io/static/js/4.6b589178.chunk.js.map",
+    "static/js/5.e2516a01.chunk.js": "/ilhamridho04.github.io/static/js/5.e2516a01.chunk.js",
+    "static/js/5.e2516a01.chunk.js.map": "/ilhamridho04.github.io/static/js/5.e2516a01.chunk.js.map",
+    "static/js/6.8ee207d6.chunk.js": "/ilhamridho04.github.io/static/js/6.8ee207d6.chunk.js",
+    "static/js/6.8ee207d6.chunk.js.map": "/ilhamridho04.github.io/static/js/6.8ee207d6.chunk.js.map",
+    "static/js/7.7adde64a.chunk.js": "/ilhamridho04.github.io/static/js/7.7adde64a.chunk.js",
+    "static/js/7.7adde64a.chunk.js.map": "/ilhamridho04.github.io/static/js/7.7adde64a.chunk.js.map",
+    "static/js/8.f8ccd348.chunk.js": "/ilhamridho04.github.io/static/js/8.f8ccd348.chunk.js",
+    "static/js/8.f8ccd348.chunk.js.map": "/ilhamridho04.github.io/static/js/8.f8ccd348.chunk.js.map",
+    "static/js/9.d12f71be.chunk.js": "/ilhamridho04.github.io/static/js/9.d12f71be.chunk.js",
+    "static/js/9.d12f71be.chunk.js.map": "/ilhamridho04.github.io/static/js/9.d12f71be.chunk.js.map",
+    "index.html": "/ilhamridho04.github.io/index.html",
+    "precache-manifest.2fb441c44fca6301c1aca150bd365a31.js": "/ilhamridho04.github.io/precache-manifest.2fb441c44fca6301c1aca150bd365a31.js",
+    "service-worker.js": "/ilhamridho04.github.io/service-worker.js",
+    "static/css/3.c4fa9b12.chunk.css.map": "/ilhamridho04.github.io/static/css/3.c4fa9b12.chunk.css.map",
+    "static/css/main.f8623e23.chunk.css.map": "/ilhamridho04.github.io/static/css/main.f8623e23.chunk.css.map",
+    "static/media/flaticon.css": "/ilhamridho04.github.io/static/media/Flaticon2.eafcbac0.ttf",
+    "static/media/ki.css": "/ilhamridho04.github.io/static/media/Ki.8f9a1a6c.woff",
+    "static/media/all.min.css": "/ilhamridho04.github.io/static/media/fa-solid-900.ec763292.svg",
+    "static/media/socicon.css": "/ilhamridho04.github.io/static/media/socicon.a35b6574.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07e67030.js",
+    "static/css/3.c4fa9b12.chunk.css",
+    "static/js/3.422df036.chunk.js",
+    "static/css/main.f8623e23.chunk.css",
+    "static/js/main.c0c43453.chunk.js"
+  ]
+}
