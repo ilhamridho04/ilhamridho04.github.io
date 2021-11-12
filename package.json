@@ -1,74 +1,47 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "rn-material-kit-free",
+  "version": "1.8.0",
+  "description": "Material Kit React Native. Coded by Creative Tim",
+  "main": "node_modules/expo/AppEntry.js",
   "private": true,
-  "dependencies": {
-    "@auth0/auth0-react": "^1.0.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "antd": "^4.4.1",
-    "apexcharts": "^3.26.3",
-    "axios": "^0.19.2",
-    "bootstrap": "^4.5.0",
-    "browserslist": "^4.13.0",
-    "cookie": "^0.4.1",
-    "dayjs": "^1.8.29",
-    "immutable": "^4.0.0-rc.12",
-    "loadash": "^1.0.0",
-    "node-sass": "^4.14.1",
-    "prop-types": "^15.7.2",
-    "qrcode.react": "^1.0.1",
-    "qs": "^6.9.4",
-    "react": "^16.13.1",
-    "react-apexcharts": "^1.3.9",
-    "react-autobind": "^1.0.6",
-    "react-bootstrap": "^1.3.0",
-    "react-datepicker": "^4.1.0",
-    "react-dom": "^16.13.1",
-    "react-helmet": "^6.1.0",
-    "react-highlight-words": "^0.16.0",
-    "react-redux": "^7.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-script-tag": "^1.1.2",
-    "react-scripts": "3.4.1",
-    "react-snapshot": "^1.3.0",
-    "react-sparklines": "^1.7.0",
-    "react-step-builder": "^2.0.10",
-    "redux": "^4.0.5",
-    "redux-devtools-extension": "^2.13.8",
-    "redux-form": "^8.3.6",
-    "redux-thunk": "^2.3.0",
-    "sass": "^1.26.10",
-    "typescript": "^3.9.6",
-    "url-join": "^4.0.1"
-  },
-  "reactSnapshot": {
-    "exclude": [
-      "/account/**",
-      "/dashboard/**",
-      "/insight/**"
-    ]
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "cross-env REACT_EDITOR=code expo start",
+    "android": "cross-env REACT_EDITOR=code expo start --android",
+    "ios": "cross-env REACT_EDITOR=code expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "jest": {
+    "preset": "jest-expo"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/compat": "~5.1.25",
+    "@react-navigation/drawer": "5.12.4",
+    "@react-navigation/native": "5.9.3",
+    "@react-navigation/stack": "5.14.3",
+    "expo": "^40.0.0",
+    "expo-app-loading": "^1.0.1",
+    "expo-asset": "~8.2.1",
+    "expo-font": "~8.4.0",
+    "expo-linear-gradient": "~8.4.0",
+    "galio-framework": "~0.7.1",
+    "react": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-modal-dropdown": "git+https://github.com/siemiatj/react-native-modal-dropdown.git",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area-context": "3.1.9",
+    "react-native-screens": "~2.15.2"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "8.3.0",
+    "cross-env": "~7.0.0",
+    "expo-cli": "~3.11.7",
+    "jest-expo": "^40.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/material-kit-react-native/issues"
+  },
+  "homepage": "https://demos.creative-tim.com/material-kit-react-native/"
 }

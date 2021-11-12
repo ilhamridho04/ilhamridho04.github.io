@@ -6,8 +6,8 @@ class WelcomeModule extends React.Component {
         super(props)
         this.state = {
             currentStep: 1,
-            email: '',
-            username: '',
+            email: 'ilhamridho.ir@gmail.com',
+            username: 'ilhamridho04',
             password: '',
         }
     }
@@ -80,8 +80,8 @@ class WelcomeModule extends React.Component {
                             <li className="zl_welcome_slide_indicator_items" title={this.state.currentStep}></li>
                             <li className="zl_welcome_slide_indicator_items" title={this.state.currentStep}></li>
                         </ul>
-                        <h2 className="zl_welcome_slide_heading">Welcome to crypto</h2>
-                        <p className="zl_welcome_slide_peregraph">Lorem Ipsum is simply dummy text of the printing & industry.</p>
+                        <h2 className="zl_welcome_slide_heading">Welcome to my pages</h2>
+                        <p className="zl_welcome_slide_peregraph">This is personal blog for my profile & for have fun.</p>
                         {this.nextButton()}
                     </React.Fragment>
                 </div>
@@ -125,7 +125,7 @@ function Step3(props) {
                 <img src="assets/image/light-welcome-slider3.png" alt="wizard-img" className="img-fluid zl_light_theme_slide_img" />
             </div>
             <Link to={'/dashboard'} className="zl_welcome_slide_step_btns">Get Started</Link>
-            <Link to={'/login'} className="zl_welcome_slide_already_wallet">I already have wallet</Link>
+            <p className="zl_welcome_slide_already_wallet">Let's go to view my profile.</p>
         </React.Fragment>
     );
 }
