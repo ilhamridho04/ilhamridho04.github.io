@@ -5,6 +5,8 @@
     "homepage": "https://ilhamridho04.github.io/ilhamridho04.github.io",
     "scripts": {
         "start": "react-scripts start -o",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
