@@ -10,7 +10,7 @@ function AuthInit(props) {
   const [showSplashScreen, setShowSplashScreen] = useState(true);
   const { authToken } = useSelector(
     ({ auth }) => ({
-      authToken: auth.authToken,
+      authToken: auth.authToken
     }),
     shallowEqual
   );

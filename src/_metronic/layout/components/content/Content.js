@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from "react";
-import {useRouteMatch} from "react-router-dom";
-import KTLayoutAside from '../../../_assets/js/layout/base/aside';
+import React, { useEffect, useState } from "react";
+import { useRouteMatch } from "react-router-dom";
+import KTLayoutAside from "../../../_assets/js/layout/base/aside";
 
 export function Content({ children }) {
   const match = useRouteMatch() || {};
