@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ilhamridho04.github.io/static/css/main.8231d78e.chunk.css",
+    "main.js": "/ilhamridho04.github.io/static/js/main.107bb5fa.chunk.js",
+    "main.js.map": "/ilhamridho04.github.io/static/js/main.107bb5fa.chunk.js.map",
+    "runtime-main.js": "/ilhamridho04.github.io/static/js/runtime-main.e3f4d1be.js",
+    "runtime-main.js.map": "/ilhamridho04.github.io/static/js/runtime-main.e3f4d1be.js.map",
+    "static/css/2.d64471e2.chunk.css": "/ilhamridho04.github.io/static/css/2.d64471e2.chunk.css",
+    "static/js/2.ee2ce51f.chunk.js": "/ilhamridho04.github.io/static/js/2.ee2ce51f.chunk.js",
+    "static/js/2.ee2ce51f.chunk.js.map": "/ilhamridho04.github.io/static/js/2.ee2ce51f.chunk.js.map",
+    "index.html": "/ilhamridho04.github.io/index.html",
+    "precache-manifest.dd1aabaf8ee8f3580181761a14d1980c.js": "/ilhamridho04.github.io/precache-manifest.dd1aabaf8ee8f3580181761a14d1980c.js",
+    "service-worker.js": "/ilhamridho04.github.io/service-worker.js",
+    "static/css/2.d64471e2.chunk.css.map": "/ilhamridho04.github.io/static/css/2.d64471e2.chunk.css.map",
+    "static/css/main.8231d78e.chunk.css.map": "/ilhamridho04.github.io/static/css/main.8231d78e.chunk.css.map",
+    "static/js/2.ee2ce51f.chunk.js.LICENSE.txt": "/ilhamridho04.github.io/static/js/2.ee2ce51f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3f4d1be.js",
+    "static/css/2.d64471e2.chunk.css",
+    "static/js/2.ee2ce51f.chunk.js",
+    "static/css/main.8231d78e.chunk.css",
+    "static/js/main.107bb5fa.chunk.js"
+  ]
+}
