@@ -1,97 +1,107 @@
 {
-    "basic_info": {
-      "name": "Ilham Ridho Asysyifa'a",
-      "titles": [ "Front-end Developer", "Freelancer", "Editor Design & Video", "Mobile App Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/ilhamridho04",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com/ilhamridho04",
-          "class": "fab fa-instagram"
-        },
-        {
-          "name": "facebook",
-          "url": "https://www.facebook.com/ilhamridho.ir",
-          "class": "fab fa-facebook"
-        }
-      ],
-      "image": "Foto.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Codeigniter",
-          "class": "devicon-codeigniter-plain",
-          "level": "80"
-        },
-        {
-          "name": "Java",
-          "class": "devicon-java-plain",
-          "level": "90"
-        },
-        {
-          "name": "Android",
-          "class": "devicon-android-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "C++",
-          "class": "devicon-cplusplus-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        },
-        {
-          "name": "JQuery",
-          "class": "devicon-jquery-plain",
-          "level": "60"
-        },
-        {
-          "name": "PHP",
-          "class": "devicon-php-plain",
-          "level": "60"
-        },
-        {
-          "name": "Wordpress",
-          "class": "devicon-wordpress-plain",
-          "level": "60"
-        },{
-          "name": "Photoshop",
-          "class": "devicon-photoshop-plain",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Ilham Ridho Asysyifa'a",
+    "titles": [
+      "Back-end Developer",
+      "Freelancer",
+      "Mobile App Developer"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/ilhamridho04",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/ilhamridho04",
+        "class": "fab fa-instagram"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/ilhamridho.ir",
+        "class": "fab fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ilhamridho04",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "Foto.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "Codeigniter",
+        "class": "devicon-codeigniter-plain",
+        "level": "80"
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "90"
+      },
+      {
+        "name": "Android",
+        "class": "devicon-android-plain",
+        "level": "90"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-csharp-plain",
+        "level": "65"
+      },
+      {
+        "name": "C++",
+        "class": "devicon-cplusplus-plain",
+        "level": "65"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      },
+      {
+        "name": "JQuery",
+        "class": "devicon-jquery-plain",
+        "level": "60"
+      },
+      {
+        "name": "PHP",
+        "class": "devicon-php-plain",
+        "level": "60"
+      },
+      {
+        "name": "Wordpress",
+        "class": "devicon-wordpress-plain",
+        "level": "60"
+      },
+      {
+        "name": "Photoshop",
+        "class": "devicon-photoshop-plain",
+        "level": "60"
+      }
+    ]
   }
+}
