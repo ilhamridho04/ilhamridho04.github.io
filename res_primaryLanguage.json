@@ -1,81 +1,111 @@
 {
-  "basic_info": {
-    "description_header": "Hai",
-    "description": "👋 Saya Ilham Ridho Asysyifa'a. Saya bekerja dengan menggunakan frameworks front-end terbaru seperti Codeigniter, Angular, React dan Vue. Apa yang Anda lihat sekarang adalah portofolio saya.",
-    "section_name": {
-      "about": "Tentang Saya",
-      "projects": "Proyek",
-      "skills": "Keahlian",
-      "experience": "Pengalaman",
-      "certificate": "Sertifikat"
-    }
-  },
-  "projects": [
-    {
-      "title": "MIKCI",
-      "startDate": "2020",
-      "description": "MIKCI adalah Mikrorik Routeros Codeigniter yang saya buat pada akhir tahun 2020 dan sampai sekarang belum selesai di karenakan ada beberapa kendala, diantaranya yaitu : 1. Komputer yang saya pakai mati, dan data nya belum sempat di backup. 2. Saya belum memulainya kembali di karenakan waktu. Saya akan memulainya kembali pada awal tahun 2021",
-      "images": [
-        "images/portofolio/mikci/mikci.jpg",
-        "images/portofolio/mikci/mikci.jpg"
-      ],
-      "url": "#",
-      "technologies": [
-        {
-          "class": "devicon-codeigniter-plain",
-          "name": "Codeigniter"
-        },
-        {
-          "class": "devicon-mysql-plain",
-          "name": "MySQL"
-        },
-        {
-          "class": "devicon-php-plain",
-          "name": "PHP"
+    "basic_info": {
+        "description_header": "Hai",
+        "description": "👋 Saya Ilham Ridho Asysyifa'a. Saya bekerja dengan menggunakan frameworks terbaru seperti Codeigniter, Angular, React dan Vue. Apa yang Anda lihat sekarang adalah portofolio saya.",
+        "section_name": {
+            "about": "Tentang Saya",
+            "projects": "Proyek",
+            "skills": "Keahlian",
+            "experience": "Pengalaman",
+            "certificate": "Sertifikat"
         }
-      ]
-    }
-  ],
-  "certificate": [
-    {
-      "title": "Alibaba Cloud Monitoring & Management",
-      "startDate": "2022",
-      "endDate": "2024",
-      "description": "Alibaba Cloud Certification",
-      "images": [
-        "https://xuecdn2.aliyunedu.net/img_4016a023d01aeb4f050601623bf18680.png"
-      ],
-      "url": "https://xuecdn2.aliyunedu.net/img_4016a023d01aeb4f050601623bf18680.png"
-    }
-  ],
-  "experience": [
-    {
-      "company": "Freelancer",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": [
-        "Codeigniter 8/9/10"
-      ],
-      "technologies": [
-        "REST API",
-        "Android",
-        "JavaScript",
-        "Bootstrap",
-        "Codeigniter",
-        "Maintenance (Computer and Networking)"
-      ]
     },
-    {
-      "company": "SMK Cendikia Utama",
-      "title": "Networking",
-      "years": "01.2018 - 02.2018",
-      "mainTech": [
-        "Lab assistant"
-      ],
-      "technologies": [
-        "Mikrotik",
-        "Cisco"
-      ]
-    }
-  ]
+    "projects": [{
+            "title": "MIKCI 4",
+            "startDate": "2022",
+            "description": "MIKCI 4 (Codeigniter 4) Mikrotik Codeigniter 4 ini berbeda dengan MIKCI, karena menggunakan Framwork Codeigniter 4 dan untuk fitur-fitur nya antara lain : \n 1. Menggunakan SQLite untuk penyimpanan basis data \n2. Menggunakan JWT Token\n 3. AdminLTE Bootstrap Admin Dashboard Template",
+            "images": [
+                "images/portofolio/mikci/dashboard.png",
+                "images/portofolio/mikci/login.png",
+                "images/portofolio/mikci/router-list.png",
+                "images/portofolio/mikci/router-setting.png"
+            ],
+            "url": "#",
+            "technologies": [{
+                    "class": "devicon-codeigniter-plain",
+                    "name": "Codeigniter"
+                },
+                {
+                    "class": "devicon-sqlite-plain",
+                    "name": "SQLite"
+                },
+                {
+                    "class": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "class": "devicon-jquery-plain",
+                    "name": "jQuery"
+                }
+            ]
+
+        },
+        {
+            "title": "MIKCI",
+            "startDate": "2020",
+            "description": "MIKCI adalah Mikrorik Routeros Codeigniter yang saya buat pada akhir tahun 2020 dan sampai sekarang belum selesai di karenakan ada beberapa kendala, diantaranya yaitu : 1. Komputer yang saya pakai mati, dan data nya belum sempat di backup. 2. Saya belum memulainya kembali di karenakan waktu. Saya akan memulainya kembali pada awal tahun 2021",
+            "images": [
+                "images/portofolio/mikci/dashboard.png",
+                "images/portofolio/mikci/login.png",
+                "images/portofolio/mikci/router-list.png",
+                "images/portofolio/mikci/router-setting.png"
+            ],
+            "url": "#",
+            "technologies": [{
+                    "class": "devicon-codeigniter-plain",
+                    "name": "Codeigniter"
+                },
+                {
+                    "class": "devicon-mysql-plain",
+                    "name": "MySQL"
+                },
+                {
+                    "class": "devicon-php-plain",
+                    "name": "PHP"
+                },
+                {
+                    "class": "devicon-jquery-plain",
+                    "name": "jQuery"
+                }
+            ]
+        }
+    ],
+    "certificate": [{
+        "title": "Alibaba Cloud Monitoring & Management",
+        "startDate": "2022",
+        "endDate": "2024",
+        "description": "Alibaba Cloud Certification",
+        "images": [
+            "https://xuecdn2.aliyunedu.net/img_4016a023d01aeb4f050601623bf18680.png"
+        ],
+        "url": "https://xuecdn2.aliyunedu.net/img_4016a023d01aeb4f050601623bf18680.png"
+    }],
+    "experience": [{
+            "company": "Freelancer",
+            "title": "Junior Back-End Developer",
+            "years": "10.2019 - present",
+            "mainTech": [
+                "Codeigniter 8/9/10"
+            ],
+            "technologies": [
+                "REST API",
+                "Android",
+                "JavaScript",
+                "Bootstrap",
+                "Codeigniter"
+            ]
+        },
+        {
+            "company": "SMK Cendikia Utama",
+            "title": "Networking",
+            "years": "01.2018 - 02.2018",
+            "mainTech": [
+                "Lab assistant"
+            ],
+            "technologies": [
+                "Mikrotik",
+                "Cisco"
+            ]
+        }
+    ]
 }
