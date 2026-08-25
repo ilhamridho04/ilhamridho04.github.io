@@ -1,3 +1,21 @@
+# Portfolio — Ilham Ridho Asysyifa'a
+
+Personal portfolio website built with React + Vite + Tailwind CSS v4.
+
+Live at **https://ilhamridho04.github.io/**
+
+## 🚀 Deployment
+
+Situs ini di-deploy ke GitHub Pages. Lihat panduan lengkap di [`docs/DEPLOY.md`](docs/DEPLOY.md).
+
+Deploy cepat:
+
+```bash
+npm run deploy
+```
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
