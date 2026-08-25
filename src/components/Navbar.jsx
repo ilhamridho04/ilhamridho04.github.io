@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Globe } from 'lucide-react';
 import { GithubIcon } from './SocialIcons';
+import profileImage from '../assets/45212532.png';
 
 const LINKS = [
   { href: 'home', label: 'Home' },
@@ -44,15 +45,21 @@ const Navbar = () => {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
-      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
-        scrolled
-          ? 'bg-[#020a0f]/90 backdrop-blur-md border-b border-[#0e7490]/30 shadow-xl'
-          : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${scrolled
+        ? 'bg-[#020a0f]/90 backdrop-blur-md border-b border-[#0e7490]/30 shadow-xl'
+        : 'bg-transparent'
+        }`}
     >
       <div className="container mx-auto px-6 py-4 flex items-center justify-between max-w-[1400px]">
-        <a href="#home" className="text-2xl font-extrabold tracking-wider text-gradient-cyan">
-          IR<span className="text-[#e2f4fc]">.</span>dev
+        <a href="#home" className="flex items-center gap-2.5 group">
+          <img
+            src={profileImage}
+            alt="Ilham Ridho Asysyifa'a"
+            className="w-9 h-9 rounded-2xl transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6"
+          />
+          <span className="text-2xl font-extrabold tracking-wider text-gradient-cyan">
+            Ilham Ridho
+          </span>
         </a>
 
         <div className="hidden md:flex items-center gap-1 lg:gap-2">
@@ -60,9 +67,8 @@ const Navbar = () => {
             <a
               key={href}
               href={`#${href}`}
-              className={`relative px-3 py-2 text-sm font-medium transition-colors duration-300 ${
-                active === href ? 'text-[#67e8f9]' : 'text-[#e2f4fc]/80 hover:text-[#67e8f9]'
-              }`}
+              className={`relative px-3 py-2 text-sm font-medium transition-colors duration-300 ${active === href ? 'text-[#67e8f9]' : 'text-[#e2f4fc]/80 hover:text-[#67e8f9]'
+                }`}
             >
               {label}
               {active === href && (
@@ -118,9 +124,8 @@ const Navbar = () => {
                 key={href}
                 href={`#${href}`}
                 onClick={() => setIsOpen(false)}
-                className={`block text-lg py-2.5 transition-colors ${
-                  active === href ? 'text-[#67e8f9]' : 'text-[#e2f4fc]/85 hover:text-[#67e8f9]'
-                }`}
+                className={`block text-lg py-2.5 transition-colors ${active === href ? 'text-[#67e8f9]' : 'text-[#e2f4fc]/85 hover:text-[#67e8f9]'
+                  }`}
               >
                 {label}
               </a>

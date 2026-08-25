@@ -36,7 +36,7 @@ const Contact = () => (
         className="mt-12 flex flex-col items-center gap-10"
       >
         <a
-          href="mailto:ilhamridho04@gmail.com"
+          href="mailto:ilham@skuyy.tech"
           className="inline-flex items-center gap-3 px-10 py-4 rounded-full font-bold uppercase tracking-wide text-[#020a0f] bg-gradient-to-r from-[#67e8f9] to-[#06b6d4] hover:shadow-[0_0_35px_rgba(34,211,238,0.5)] transition-all duration-300 hover:-translate-y-0.5"
         >
           <Mail className="w-5 h-5" /> Say Hello
